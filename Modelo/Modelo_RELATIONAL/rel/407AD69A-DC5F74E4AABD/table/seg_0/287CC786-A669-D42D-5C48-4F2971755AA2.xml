@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="287CC786-A669-D42D-5C48-4F2971755AA2" name="DETALLE_FACTURA">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:00:30 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle" id="9D0313EB-4BD6-C523-C745-9D4556257428">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_factura" id="7A65463B-CDDC-225F-9CFC-2A848AD0A59A">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C461F9F8-C546-5FFE-7DCA-AF6129F92B85" referredColumn="2ACFCD9F-8D2E-9867-D1B7-9A38BC9F8679"/>
+</associations>
+</Column>
+<Column name="id_producto" id="52F04CD6-E272-FA93-57CC-D05ADE61A5B4">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BBD8F93-9EA1-64A6-B1FE-C2D7E2AFDE6F" referredColumn="C09D7524-5E93-1820-D5BC-A228370D712B"/>
+</associations>
+</Column>
+<Column name="precio" id="74351B38-2AD4-9A32-4231-4301A83EA3D9">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="5B9F2A61-6988-48A1-F0B8-186F2CACE808">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="A5F8F79B-86E1-D882-DD85-D8C44D502D5B">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="0E11414E-A080-53FE-358D-D2C6EC9E5ABF">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="B1A72AEB-5FA2-96B5-CBBF-1EBA941E27FD">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:15:37 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D921AA69-FA2C-2BB5-BB41-ECB6E8C5D1B3" name="DETALLE_FACTURA_PK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:17:09 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D0313EB-4BD6-C523-C745-9D4556257428"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BF91B98-4C64-63C4-84F6-7F3BD99CD1FC" name="DETALLE_FACTURA_FACTURA_FK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:29:48 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A65463B-CDDC-225F-9CFC-2A848AD0A59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F81A422-DA53-36F0-8A53-51294C310F95" name="DETALLE_FACTURA_PRODUCTOS_FK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:30:07 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52F04CD6-E272-FA93-57CC-D05ADE61A5B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

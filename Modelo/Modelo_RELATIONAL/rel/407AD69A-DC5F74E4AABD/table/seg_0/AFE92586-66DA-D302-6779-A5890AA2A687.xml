@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFE92586-66DA-D302-6779-A5890AA2A687" name="PRODUCTOS">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:54:44 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_productos" id="C09D7524-5E93-1820-D5BC-A228370D712B">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="EBC33539-4A43-02E0-AB2F-F87CA00BBD5C">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_barras" id="FDB3D1A0-F6CE-6AAD-662B-AE55977D9DFF">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="E5E6421D-9821-A527-F7E5-0B57C459FA68">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="872C1A3E-5406-E1AE-DB46-CEB87BABFAA2">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_costo" id="D2A1C4F1-E66C-BA18-E138-0C39B285D8CF">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laboratorio" id="232449F9-16D2-1C13-27FA-9F12BFD90AF1">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alergias" id="F159ABF1-9FDE-317A-E717-11940D576862">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="restrinciones" id="B60FD26B-6384-3CA9-F731-56C206B15C81">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="A380C022-13D7-9D8F-6049-BCA7653B6208">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_proveedor" id="96ABCE60-C75A-0590-D563-481BBEEAD161">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:27:16 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38AE6212-FB5D-D3A0-8699-9C5E5866219B" referredColumn="12CCB7D9-394D-77E1-9F20-EBF5B62D7563"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8F02825-32E9-1C03-E583-2FB82AB8EB8A" name="PRODUCTOS_PK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:58:01 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09D7524-5E93-1820-D5BC-A228370D712B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4639147E-F47A-7289-30A3-E3D941855900" name="PRODUCTOS_PROVEEDOR_FK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:28:02 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96ABCE60-C75A-0590-D563-481BBEEAD161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06DA36E1-BF69-B0CA-39B8-8B141D26F7DF" name="USUARIOS">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:49:22 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuarios" id="33F96BC7-B34A-5A3E-9232-5686A6F1DA78">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A5D97A2-CBF3-7371-14A6-9E8F50C6510D" referredColumn="872C8A85-678C-3EC9-9775-0923D0CB36AC"/>
+</associations>
+</Column>
+<Column name="usuario" id="56B61641-275F-8842-DA7C-4849BB0AA8FD">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave" id="68AA6BEC-22C1-BF43-E100-77434EDFB5F5">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_usuari" id="547C7280-BB38-A133-5902-0E8C868ADF66">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="5BD4BAD8-CB03-EE85-BEF2-D1F702E81B37">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_modificacion" id="3A6EB024-E455-C694-8DEA-C7B886F781DD">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27FB2B16-8597-8720-E4FC-5129FF3D2854" name="USUARIOS_PK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 18:52:29 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33F96BC7-B34A-5A3E-9232-5686A6F1DA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="782ABC6D-9839-2625-F35C-5C8656B0EE75" name="USUARIOS_CLIENTES_FK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:30:56 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33F96BC7-B34A-5A3E-9232-5686A6F1DA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

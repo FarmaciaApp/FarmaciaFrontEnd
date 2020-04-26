@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C461F9F8-C546-5FFE-7DCA-AF6129F92B85" containerWithKeyObject="287CC786-A669-D42D-5C48-4F2971755AA2" localFKIndex="3BF91B98-4C64-63C4-84F6-7F3BD99CD1FC" name="DETALLE_FACTURA_FACTURA_FK">
+<createdBy>felip</createdBy>
+<createdTime>2020-04-26 19:29:48 UTC</createdTime>
+<ownerDesignName>Modelo_RELATIONAL</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77DDE797-1008-3194-58A3-E37FA4E4652F</referredTableID>
+<keyObject>1FEADF55-97D6-B010-5EC5-95E6093EA80B</keyObject>
+<referredKeyID>1FEADF55-97D6-B010-5EC5-95E6093EA80B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
