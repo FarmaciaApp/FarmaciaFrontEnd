@@ -14,7 +14,7 @@ CREATE
     apellido       VARCHAR2 (100) NOT NULL ,
     direccion      VARCHAR2 (100) NOT NULL ,
     telefono       VARCHAR2 (100) NOT NULL ,
-    fecha_creacion datetime
+    fecha_creacion DATE
   ) ;
 ALTER TABLE CLIENTES ADD CONSTRAINT CLIENTES_PK PRIMARY KEY ( id_clientes ) ;
 
