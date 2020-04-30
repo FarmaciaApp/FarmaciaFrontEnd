@@ -14,9 +14,7 @@ CREATE
     apellido       VARCHAR2 (100) NOT NULL ,
     direccion      VARCHAR2 (100) NOT NULL ,
     telefono       VARCHAR2 (100) NOT NULL ,
-    fecha_creacion VARCHAR2
-    --  ERROR: VARCHAR2 size not specified
-    NOT NULL
+    fecha_creacion datetime
   ) ;
 ALTER TABLE CLIENTES ADD CONSTRAINT CLIENTES_PK PRIMARY KEY ( id_clientes ) ;
 
